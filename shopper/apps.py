@@ -1,6 +1,5 @@
 from django.apps import AppConfig
 
 
-class ShooperConfig(AppConfig):
-    default_auto_field = 'django.db.models.BigAutoField'
+class ShopperConfig(AppConfig):
     name = 'shopper'
