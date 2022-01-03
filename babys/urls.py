@@ -19,10 +19,10 @@ from django.views.static import serve
 from django.conf import settings
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    # path('admin/', admin.site.urls),
     # path('', include(('index.urls', 'index'), namespace='index')),
     # path('commodity', include(('commodity.urls', 'commodity'), namespace='commodity')),
     # path('shopper', include(('shopper.urls', 'shopper'), namespace='shopper')),
     # 配置媒体资源的路由信息
-    re_path('media/(?P<path>.*)', serve, {'document_root':settings.MEDIA_ROOT}, name='media'),
+    # re_path('media/(?P<path>.*)', serve, {'document_root':settings.MEDIA_ROOT}, name='media'),
 ]
